@@ -1,5 +1,7 @@
-import Cupcake from "@components/Cupcake";
+/* eslint-disable prettier/prettier */
+// import Cupcake from "@components/Cupcake";
 import { Link } from "react-router-dom";
+import Cupcake from "../components/Cupcake";
 
 export default function Home() {
   return (
@@ -23,5 +25,5 @@ export default function Home() {
         </div>
       </section>
     </>
-  );
+  );  
 }
